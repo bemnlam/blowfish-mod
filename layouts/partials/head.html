@@ -9,6 +9,7 @@
   {{ if .IsHome -}}
   <title>{{ .Site.Title | emojify }}</title>
   <meta name="title" content="{{ .Site.Title | emojify }}" />
+  <meta name="msvalidate.01" content="4B27C9E56CD72D3FFD8EE17672370C5D" />
   {{- else -}}
   <title>{{ .Title | emojify }} &middot; {{ .Site.Title | emojify }}</title>
   <meta name="title" content="{{ .Title | emojify }} &middot; {{ .Site.Title | emojify }}" />
